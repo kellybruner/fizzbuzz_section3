@@ -1,7 +1,7 @@
 var count, fizzer, buzzer, and fizzbuzzer;
 count = function(begin, end) {
 
-	var output = buzzer9fizzer(begin));
+	var output = buzzer(fizzer(begin));
 	for (var i = begin; i <= end; i += 1) {
 		output = output + " " + buzzer(fizzer(fizzbuzzer(i + 1)));
 	}
